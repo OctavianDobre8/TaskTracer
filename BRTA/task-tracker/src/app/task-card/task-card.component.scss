@@ -1,0 +1,35 @@
+.task-card{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-description{
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+.card-assignee{
+    font-size: 13px;
+    color: green;
+    margin-top: 10px;
+
+}
+.card-status{
+    font-size: 20px;
+}
+.card-status-todo{
+    color: red;
+}
+.card-status-inprogress{
+    color: orange;
+}
+.card-status-done{
+    color: green;
+}

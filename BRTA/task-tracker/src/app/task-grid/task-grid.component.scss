@@ -1,0 +1,25 @@
+.task-columns {
+    display: flex;
+  }
+  
+  .task-column {
+    flex: 1;
+    margin: 10px;
+  }
+  .column-title {
+    text-align: center;
+    color: #333; 
+    font-weight: bold;
+  }
+  
+  .column-title-toDo {
+    color: red;
+  }
+  
+  .column-title-inProgress {
+    color: orange;
+  }
+  
+  .column-title-Done {
+    color: green;
+  }

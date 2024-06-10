@@ -1,0 +1,31 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+  
+  .mat-toolbar {
+    background-color: #6b46bd;
+}
+
+.button{
+    background: transparent;
+    color: white;
+    margin: 10px, 10px, 10px, 10px;
+    border: 0px solid #6b46bd;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 10ms;
+    font-size: 16px;
+
+}
+
+.button:hover{
+    background: #ffffff0f;
+    border-radius: 3px;
+    transition:0.3s;
+}
+.button:active{
+    background: #dddddd8b;
+    border-radius: 3px;
+    transition:0.5s;
+}

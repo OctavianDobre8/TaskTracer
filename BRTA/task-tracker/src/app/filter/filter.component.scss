@@ -1,0 +1,32 @@
+.buttons {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+        width: 48%;
+    }
+    
+    .toDo{
+        color: rgba(128,128,128,0.522);
+        border: 0px solid;
+        border-radius: 0.25rem;
+        padding: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .inProgress {
+        color: orange;
+        border: 0px solid;
+        border-radius: 0.25rem;
+        padding: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .done {
+        color: green;
+        border: 0px solid;
+        border-radius: 0.25rem;
+        padding: 1rem;
+        margin-bottom: 0.5rem;
+    }
+}
